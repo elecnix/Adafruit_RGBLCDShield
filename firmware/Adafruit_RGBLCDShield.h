@@ -18,7 +18,7 @@
 
 #if defined (SPARK)
 #include "application.h"
-#include "Adafruit_MCP23017/Adafruit_MCP23017.h"
+#include "../Adafruit_MCP23017/Adafruit_MCP23017.h"
 #else
 #include <inttypes.h>
 #include "Print.h"
